@@ -1,8 +1,8 @@
 name: LiteMod
 version: 1.0
-main: com.yourname.litemod.LiteMod
+main: com.__M0ko.litemod.LiteMod
 api-version: '1.21'
-author: YourName
+author: __M0ko
 description: All-in-One lightweight moderation plugin
 commands:
   ban:
