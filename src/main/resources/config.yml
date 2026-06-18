@@ -1,0 +1,17 @@
+# LiteMod Configuration
+# All messages are customizable here
+
+messages:
+  no-permission: "&cYou don't have permission to use this command!"
+  player-not-found: "&cPlayer not found!"
+  ban-message: "&cYou have been banned!\nReason: %reason%"
+  kick-message: "&cYou have been kicked!\nReason: %reason%"
+  mute-message: "&cYou have been muted!"
+  freeze-message: "&cYou have been frozen by staff!"
+  vanish-on: "&aVanish enabled."
+  vanish-off: "&cVanish disabled."
+
+# Permissions (add these in LuckPerms)
+permissions:
+  staff: "litemod.staff"
+  admin: "litemod.admin"

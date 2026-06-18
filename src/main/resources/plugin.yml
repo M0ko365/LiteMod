@@ -1,0 +1,88 @@
+name: LiteMod
+version: 1.0
+main: com.yourname.litemod.LiteMod
+api-version: '1.21'
+author: YourName
+description: All-in-One lightweight moderation plugin
+commands:
+  ban:
+    description: Ban a player
+    usage: /ban <player> [reason]
+  tempban:
+    description: Temporarily ban a player
+    usage: /tempban <player> <time> [reason]
+  kick:
+    description: Kick a player
+    usage: /kick <player> [reason]
+  mute:
+    description: Mute a player
+    usage: /mute <player> [reason]
+  tempmute:
+    description: Temporarily mute a player
+    usage: /tempmute <player> <time> [reason]
+  warn:
+    description: Warn a player
+    usage: /warn <player> [reason]
+  freeze:
+    description: Freeze/unfreeze a player
+    usage: /freeze <player>
+  vanish:
+    description: Toggle vanish
+    usage: /vanish
+  staffchat:
+    description: Send staff chat message
+    usage: /staffchat <message>
+    aliases: [sc]
+  clearchat:
+    description: Clear the chat
+    usage: /clearchat
+  report:
+    description: Report a player
+    usage: /report <player> <reason>
+  history:
+    description: View punishment history
+    usage: /history <player>
+  unban:
+    description: Unban a player
+    usage: /unban <player>
+  unmute:
+    description: Unmute a player
+    usage: /unmute <player>
+  unfreeze:
+    description: Unfreeze a player
+    usage: /unfreeze <player>
+  invsee:
+    description: View a player's inventory
+    usage: /invsee <player>
+  endersee:
+    description: View a player's enderchest
+    usage: /endersee <player>
+  fly:
+    description: Toggle flight
+    usage: /fly
+  god:
+    description: Toggle god mode
+    usage: /god
+  heal:
+    description: Heal a player
+    usage: /heal [player]
+  feed:
+    description: Feed a player
+    usage: /feed [player]
+  broadcast:
+    description: Broadcast a message
+    usage: /broadcast <message>
+    aliases: [bc]
+  check:
+    description: Check player info
+    usage: /check <player>
+permissions:
+  litemod.*:
+    description: All LiteMod permissions
+    default: op
+  litemod.ban:
+    description: Allows banning players
+    default: op
+  litemod.staff:
+    description: Basic staff permissions
+    default: op
